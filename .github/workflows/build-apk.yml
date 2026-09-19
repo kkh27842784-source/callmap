@@ -26,7 +26,7 @@ jobs:
       - name: 그래들 설치
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.7'
+          gradle-version: '8.9'
 
       - name: 콜맵 압축 풀기
         shell: bash
